@@ -20,12 +20,12 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:make-new-spider" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="made the initial spider for finance.yahoo." />
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="Merge pull request #8 from arsoljon/fix-stock-request&#10;&#10;Fix stock request" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +50,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="edit-spider-configurations" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617039158112</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge pull request #8 from arsoljon/fix-stock-request&#10;&#10;Fix stock request">
+      <created>1617042155982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617042155982</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge pull request #8 from arsoljon/fix-stock-request&#10;&#10;Fix stock request">
+      <created>1617042161435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617042161435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +113,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="make-new-spider" />
+                        <option value="add-db-dir" />
                       </list>
                     </value>
                   </entry>
@@ -115,6 +129,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="add-db-dir" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="main" />
@@ -134,7 +153,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made the initial spider for finance.yahoo." />
-    <option name="LAST_COMMIT_MESSAGE" value="made the initial spider for finance.yahoo." />
+    <MESSAGE value="*Untracked Files Prevent Merge* error occured. adding those files." />
+    <MESSAGE value="Merge pull request #8 from arsoljon/fix-stock-request&#10;&#10;Fix stock request" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #8 from arsoljon/fix-stock-request&#10;&#10;Fix stock request" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617041770120">
