@@ -25,10 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="Inside the YahooSpider class, I extracted the ticker form 'ticker_url_db' and made the search for the current price then saved into 'clean_stock_db'.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="Inside the YahooSpider class, I changed the path to read 'ticker_url_db' from the databases folder located in the projects home directory.">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/spiders/yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_scraper/stock_scraper/spiders/yahoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_request.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617046458860</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Inside the YahooSpider class, I changed the path to save 'clean_stock_db' into the databases folder located in the projects home directory.">
+      <created>1617047385801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617047385801</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Inside the YahooSpider class, I changed the path to read 'ticker_url_db' from the databases folder located in the projects home directory.">
+      <created>1617047543125</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617047543125</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +225,9 @@
     <MESSAGE value="added a database directory." />
     <MESSAGE value="added a database directory. (2) My first try didnt add a empty directory" />
     <MESSAGE value="Inside the YahooSpider class, I extracted the ticker form 'ticker_url_db' and made the search for the current price then saved into 'clean_stock_db'." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inside the YahooSpider class, I extracted the ticker form 'ticker_url_db' and made the search for the current price then saved into 'clean_stock_db'." />
+    <MESSAGE value="Inside the YahooSpider class, I changed the path to save 'clean_stock_db' into the databases folder located in the projects home directory." />
+    <MESSAGE value="Inside the YahooSpider class, I changed the path to read 'ticker_url_db' from the databases folder located in the projects home directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inside the YahooSpider class, I changed the path to read 'ticker_url_db' from the databases folder located in the projects home directory." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
@@ -223,30 +238,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617042880785" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1617047200392">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1617047634352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047200392" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1617047200392">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047634352" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1617047634352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047200392" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1617047200392">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047634352" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1617047634352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047200392" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1617047200392">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047634352" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1617047634352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047200392" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047634352" />
     <state x="783" y="433" key="VCS.ChangelistChooser" timestamp="1617041684301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617046463215">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617047544417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617046463215" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617047544417" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

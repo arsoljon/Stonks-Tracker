@@ -30,7 +30,7 @@ class Stock_request():
         if self.get_found():
             data = {"Ticker": [self.get_ticker()], "URL": [self.get_url()]}
             df = pd.DataFrame(data, columns=["Ticker", "URL"])
-            df.to_csv("ticker_url_db")
+            df.to_csv("databases/ticker_url_db")
 
     def __init__(self, t, u):
         self.__set_ticker(t)
