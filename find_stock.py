@@ -24,6 +24,7 @@ class Find_stock():
     def __get_previous_db(self):
         return self.__previous_db
     def __get_new_db(self): return self.__new_db
+
     def __init__(self):
         self.__set_previous_db()
         self.__retrieve_ticker_url_db()
