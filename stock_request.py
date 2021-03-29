@@ -3,7 +3,6 @@
 import requests
 import pandas as pd
 
-
 class Stock_request():
     __ticker = ""
     __url = ""
@@ -18,7 +17,6 @@ class Stock_request():
         else:
             self.__url = u + self.get_ticker()
             self.__set_found()
-            self.__set_ticker_url_db()
 
     def __set_found(self):
         if (requests.get(self.get_url())).status_code == 200:
