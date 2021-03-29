@@ -4,7 +4,7 @@ import os
 
 class YahooSpider(scrapy.Spider):
     ticker = ''
-    df_ticker = pd.read_csv('../ticker_url_db', sep=',', dtype=str)
+    df_ticker = pd.read_csv('../databases/ticker_url_db', sep=',', dtype=str)
     ticker = df_ticker.to_dict()["Ticker"][0]
     site_loc = "quote/"
 
