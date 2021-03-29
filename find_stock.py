@@ -6,24 +6,28 @@ class Find_stock():
     __ticker = ""
     __url = ""
     __previous_db = ""
-    __raw_html_db_name = ""
+    __new_db = ""
     def __retrieve_ticker_url_db(self):
         df = pd.read_csv(self.__get_previous_db(), sep=',', dtype=str)
         data = df.values.tolist()[0]
         self.__set_ticker(data[1])
         self.__set_url(data[2])
-        print(self.__get_ticker(), self.__get_url())
+
     def __launch_spider(self): pass
+
     def __set_ticker(self, t): self.__ticker = t
     def __set_url(self, u): self.__url = u
-    def __set_previous_db(self):
-        self.__previous_db = "ticker_url_db" #refactor to include a object of Stock_request and grab the db name from object.
-    def __set_raw_html_db(self):pass
+    def __set_previous_db(self): self.__previous_db = "ticker_url_db" #refactor to include a object of Stock_request and grab the db name from object.
+    def __set_new_db(self): self.new_db = "clean_stock_db"
+
     def __get_ticker(self):return self.__ticker
     def __get_url(self): return self.__url
     def __get_previous_db(self):
         return self.__previous_db
-    def __get_raw_html_db(self):pass
+
+    def __get_new_db(self): return self.__new_db
+
+
     def __init__(self):
         self.__set_previous_db()
         self.__retrieve_ticker_url_db()
