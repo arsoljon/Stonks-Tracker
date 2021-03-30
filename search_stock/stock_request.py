@@ -2,7 +2,6 @@
 # Combine url & ticker and make a csv file to save the data.
 import requests
 import pandas as pd
-import os
 
 class Stock_request():
     __ticker = ""
