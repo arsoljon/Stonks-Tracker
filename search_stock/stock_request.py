@@ -2,6 +2,7 @@
 # Combine url & ticker and make a csv file to save the data.
 import requests
 import pandas as pd
+import os
 
 class Stock_request():
     __ticker = ""
@@ -19,6 +20,7 @@ class Stock_request():
             self.__set_found()
 
     def __set_found(self):
+        print(self.get_url())
         if (requests.get(self.get_url())).status_code == 200:
             self.__found = True
         else:
@@ -30,7 +32,9 @@ class Stock_request():
         if self.get_found():
             data = {"Ticker": [self.get_ticker()], "URL": [self.get_url()]}
             df = pd.DataFrame(data, columns=["Ticker", "URL"])
-            df.to_csv("databases/ticker_url_db")
+            print(os.getcwd())
+            path = "databases/ticker_url_db"
+            df.to_csv(path)
 
     def __init__(self, t, u):
         self.__set_ticker(t)
