@@ -4,7 +4,9 @@ import os
 class Save_stock():
     __stock_info = {}
     def __set_stock_info(self):
-        df = pd.read_csv("databases/clean_stock_db", sep=',', dtype=str).to_dict()
+        print(os.getcwd())
+        path = "databases/clean_stock_db"
+        df = pd.read_csv(path, sep=',', dtype=str).to_dict()
         self.__stock_info = {"Ticker": [df["Ticker"][0]], "Current_price": [df["Current_price"][0]]}
     def __get_stock_info(self): return self.__stock_info
 
