@@ -25,13 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created the save_stock class. reads the newly scraped and adds it to the 'add_stocks_db'.">
-      <change afterPath="$PROJECT_DIR$/search_stock/search.py" afterDir="false" />
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="Organized stock_request, save_stock, &amp; find_stock into 1 folder, then use a search class to order their functions accordingly. I also had to re-route the database into a slightly different path.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_stock/find_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_stock/save_stock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_stock/stock_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/find_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_stock/find_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/save_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_stock/save_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_stock/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/spiders/yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_scraper/stock_scraper/spiders/yahoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617052275591</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Organized stock_request, save_stock, &amp; find_stock into 1 folder, then use a search class to order their functions accordingly. I also had to re-route the database into a slightly different path.">
+      <created>1617084362823</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617084362823</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +272,8 @@
     <MESSAGE value="Inside the YahooSpider class, I changed the path to read 'ticker_url_db' from the databases folder located in the projects home directory." />
     <MESSAGE value="Inside the stock_request class, I changed the path to write 'ticker_url_db' into the databases folder located in the projects home directory." />
     <MESSAGE value="created the save_stock class. reads the newly scraped and adds it to the 'add_stocks_db'." />
-    <option name="LAST_COMMIT_MESSAGE" value="created the save_stock class. reads the newly scraped and adds it to the 'add_stocks_db'." />
+    <MESSAGE value="Organized stock_request, save_stock, &amp; find_stock into 1 folder, then use a search class to order their functions accordingly. I also had to re-route the database into a slightly different path." />
+    <option name="LAST_COMMIT_MESSAGE" value="Organized stock_request, save_stock, &amp; find_stock into 1 folder, then use a search class to order their functions accordingly. I also had to re-route the database into a slightly different path." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
@@ -276,30 +284,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617042880785" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1617084112003">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1617084137202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084112003" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1617084112003">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084137202" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1617084137202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084112003" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1617084112003">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084137202" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1617084137202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084112003" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1617084112003">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084137202" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1617084137202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084112003" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084137202" />
     <state x="783" y="433" key="VCS.ChangelistChooser" timestamp="1617041684301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617052278562">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617084367167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617052278562" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617084367167" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
