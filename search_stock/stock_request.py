@@ -8,9 +8,9 @@ class Stock_request():
     __ticker = ""
     __url = ""
     __found = False
+    __db_name = ""
 
-    def __set_ticker(self, t):
-        self.__ticker = t
+    def __set_ticker(self, t): self.__ticker = t
 
     def __set_url(self, u):
         if self.get_ticker() == "":
@@ -28,25 +28,25 @@ class Stock_request():
             self.__url = ""
             print("Error: Input a valid url")
 
+    def __set_db_name(self): self.__db_name = "databases/ticker_url_db"
+
     def __set_ticker_url_db(self):
         if self.get_found():
             data = {"Ticker": [self.get_ticker()], "URL": [self.get_url()]}
             df = pd.DataFrame(data, columns=["Ticker", "URL"])
-            print(os.getcwd())
-            path = "databases/ticker_url_db"
-            df.to_csv(path)
+            df.to_csv(self.get_db_name())
 
     def __init__(self, t, u):
         self.__set_ticker(t)
         self.__set_url(u)
         self.__set_found()
+        self.__set_db_name()
         self.__set_ticker_url_db()
 
-    def get_ticker(self):
-        return self.__ticker
+    def get_ticker(self): return self.__ticker
 
-    def get_url(self):
-        return self.__url
+    def get_url(self): return self.__url
 
-    def get_found(self):
-        return self.__found
+    def get_found(self): return self.__found
+
+    def get_db_name(self): return self.__db_name
