@@ -1,7 +1,6 @@
 from .stock_request import Stock_request as req
 from .find_stock import Find_stock as find
 from .save_stock import Save_stock as save
-import os
 
 class Search():
     __url = ""
