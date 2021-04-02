@@ -20,12 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:reorganize-the-search-functions" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:update-documentation" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="deleted redeclared variable, ticker, in yahoo spider.">
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="updated doc paging to exclude previous functions and methods. Removed flowchart in readme.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="add_save_stock" />
+        <entry key="$PROJECT_DIR$" value="reorganize-the-search-functions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,10 +73,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\search" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\stock_scraper" />
     </key>
@@ -217,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617125937916</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated doc paging to exclude previous functions and methods. Removed flowchart in readme.">
+      <created>1617126968941</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617126968941</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +248,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="reorganize-the-search-functions" />
+                        <option value="update-documentation" />
                       </list>
                     </value>
                   </entry>
@@ -252,6 +264,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="update-documentation" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="reorganize-the-search-functions" />
@@ -300,7 +317,8 @@
     <MESSAGE value="Did some refactoring with stock request and major refactoring in find stock. Most of the code was not used and all data handling is done in the yahoo spider." />
     <MESSAGE value="Did more refactoring in save stock and yahoo spider." />
     <MESSAGE value="deleted redeclared variable, ticker, in yahoo spider." />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted redeclared variable, ticker, in yahoo spider." />
+    <MESSAGE value="updated doc paging to exclude previous functions and methods. Removed flowchart in readme." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated doc paging to exclude previous functions and methods. Removed flowchart in readme." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
@@ -331,10 +349,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617125939121">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617126970235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617125939121" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617126970235" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
