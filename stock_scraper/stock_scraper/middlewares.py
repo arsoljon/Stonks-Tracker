@@ -29,7 +29,7 @@ class StockScraperSpiderMiddleware:
         return None
 
     def process_spider_output(self, response, result, spider):
-        # Called with the results returned from the Spider, after
+        # Called with the results returned from the spider, after
         # it has processed the response.
 
         # Must return an iterable of Request, or item objects.
@@ -53,7 +53,7 @@ class StockScraperSpiderMiddleware:
             yield r
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info('spider opened: %s' % spider.name)
 
 
 class StockScraperDownloaderMiddleware:
@@ -100,4 +100,4 @@ class StockScraperDownloaderMiddleware:
         pass
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info('spider opened: %s' % spider.name)

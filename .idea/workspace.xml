@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="add documentation for the invest functionality.">
-      <change beforePath="$PROJECT_DIR$/docs/Invest-flow-diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Invest-flow-diagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/View-a-stock-flow-diagram.pdf" beforeDir="false" />
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="corrected the location of invest flow diagram and removed a redundant search flow diagram">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617394781254</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="corrected the location of invest flow diagram and removed a redundant search flow diagram">
+      <created>1617395216078</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1617395216078</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +334,8 @@
     <MESSAGE value="deleted redeclared variable, ticker, in yahoo spider." />
     <MESSAGE value="updated doc paging to exclude previous functions and methods. Removed flowchart in readme." />
     <MESSAGE value="add documentation for the invest functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="add documentation for the invest functionality." />
+    <MESSAGE value="corrected the location of invest flow diagram and removed a redundant search flow diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected the location of invest flow diagram and removed a redundant search flow diagram" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
@@ -359,10 +366,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617394784339">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617395218669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617394784339" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617395218669" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
