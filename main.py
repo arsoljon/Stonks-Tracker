@@ -1,7 +1,4 @@
-import stock_request as sr
-import find_stock as fs
+from search_stock import search as s
 
-url = "https://finance.yahoo.com/quote/"
-t = "SNDL"
-new_stock = sr.Stock_request(t, url)
-temp = fs.Find_stock()
+t = "sndl"
+s.Search(t)
