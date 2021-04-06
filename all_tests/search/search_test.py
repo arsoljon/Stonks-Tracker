@@ -1,7 +1,7 @@
 import unittest
-from search_stock import save_stock
+from search_stock import search
 
-class MyTestCase(unittest.TestCase):
+class SearchTest(unittest.TestCase):
     def test_something(self):
         self.assertEqual(True, False)
 
