@@ -20,14 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:update-documentation" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:create-tests-for-search-class" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created directories for future documentation of different necessary aspects.">
-      <change afterPath="$PROJECT_DIR$/all_tests/invests-test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_tests/search/find-test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,16 +76,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\all_tests\search" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\all_tests" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs\basic_functionality" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\search" />
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\stock_scraper" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\images" />
     </key>
   </component>
   <component name="RunManager">
