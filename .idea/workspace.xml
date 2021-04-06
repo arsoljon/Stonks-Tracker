@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created a search_test file for testing the search class">
-      <change afterPath="$PROJECT_DIR$/all_tests/search/stock_req_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_tests/search/save_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_tests/search/save_test.py" afterDir="false" />
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created a stock_req_test file for testing the stock_request class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/search/search_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_tests/search/search_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_stock/search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/all_tests/search/search_test.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,7 +91,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="search_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Stonks-Tracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Jonathan\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/all_tests/search" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_tests/search/search_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617738008579</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="created a stock_req_test file for testing the stock_request class">
+      <created>1617738651440</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617738651440</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,21 +404,22 @@
     <MESSAGE value="created a find_test file for testing the find_stock class" />
     <MESSAGE value="created a save_test file for testing the save_stock class" />
     <MESSAGE value="created a search_test file for testing the search class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a search_test file for testing the search class" />
+    <MESSAGE value="created a stock_req_test file for testing the stock_request class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a stock_req_test file for testing the stock_request class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
+    <state x="424" y="174" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617743905948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617042881943" />
+    <state x="424" y="174" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617743905948" />
     <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617577920918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617577920918" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617596247634">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617743902899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617596247634" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617743902899" />
     <state width="1014" height="278" key="GridCell.Tab.0.bottom" timestamp="1617125034751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -431,10 +440,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617578015229">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617738662930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617578015229" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617738662930" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
