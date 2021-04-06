@@ -1,5 +1,5 @@
 import unittest
-from search_stock import save_stock as ss
+from search_stock import stock_request as sr
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

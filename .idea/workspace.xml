@@ -20,13 +20,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:create-tests-for-search-class" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:create-tests-for-search-classes" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created directories for future documentation of different necessary aspects.">
-      <change afterPath="$PROJECT_DIR$/all_tests/search/find-test.py" afterDir="false" />
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created a search_test file for testing the search class">
+      <change afterPath="$PROJECT_DIR$/all_tests/search/stock_req_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/search/save_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_tests/search/save_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +268,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617577956346</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="created a find_test file for testing the find_stock class">
+      <created>1617737816695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617737816695</updated>
+    </task>
+    <task id="LOCAL-00023" summary="created a save_test file for testing the save_stock class">
+      <created>1617737880503</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617737880503</updated>
+    </task>
+    <task id="LOCAL-00024" summary="created a search_test file for testing the search class">
+      <created>1617738008579</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617738008579</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +308,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="create-test-function-for-invest-class" />
+                        <option value="create-tests-for-search-classes" />
                       </list>
                     </value>
                   </entry>
@@ -302,6 +324,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="create-tests-for-search-classes" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="create-test-function-for-invest-class" />
@@ -366,7 +393,10 @@
     <MESSAGE value="created a folder for the basic/essential functionality of stock investing. Moved invest documentation into the folder first." />
     <MESSAGE value="moved the search documentation into the basics folder." />
     <MESSAGE value="created directories for future documentation of different necessary aspects." />
-    <option name="LAST_COMMIT_MESSAGE" value="created directories for future documentation of different necessary aspects." />
+    <MESSAGE value="created a find_test file for testing the find_stock class" />
+    <MESSAGE value="created a save_test file for testing the save_stock class" />
+    <MESSAGE value="created a search_test file for testing the search class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a search_test file for testing the search class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
