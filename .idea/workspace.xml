@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="corrected the location of invest flow diagram and removed a redundant search flow diagram">
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created directories for future documentation of different necessary aspects.">
+      <change afterPath="$PROJECT_DIR$/all_tests/invests-test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -60,7 +61,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="reorganize-the-search-functions" />
+        <entry key="$PROJECT_DIR$" value="update-documentation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,17 +74,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\images" />
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\all_tests" />
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs\basic_functionality" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\search" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\stock_scraper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -244,7 +247,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617395216078</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="created a folder for the basic/essential functionality of stock investing. Moved invest documentation into the folder first.">
+      <created>1617577849124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1617577849124</updated>
+    </task>
+    <task id="LOCAL-00020" summary="moved the search documentation into the basics folder.">
+      <created>1617577893091</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1617577893091</updated>
+    </task>
+    <task id="LOCAL-00021" summary="created directories for future documentation of different necessary aspects.">
+      <created>1617577956346</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617577956346</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +287,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="update-documentation" />
+                        <option value="create-test-function-for-invest-class" />
                       </list>
                     </value>
                   </entry>
@@ -279,6 +303,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="create-test-function-for-invest-class" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="update-documentation" />
@@ -335,17 +364,24 @@
     <MESSAGE value="updated doc paging to exclude previous functions and methods. Removed flowchart in readme." />
     <MESSAGE value="add documentation for the invest functionality." />
     <MESSAGE value="corrected the location of invest flow diagram and removed a redundant search flow diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected the location of invest flow diagram and removed a redundant search flow diagram" />
+    <MESSAGE value="created a folder for the basic/essential functionality of stock investing. Moved invest documentation into the folder first." />
+    <MESSAGE value="moved the search documentation into the basics folder." />
+    <MESSAGE value="created directories for future documentation of different necessary aspects." />
+    <option name="LAST_COMMIT_MESSAGE" value="created directories for future documentation of different necessary aspects." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617042881943" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617042880785">
+    <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617577920918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617042880785" />
+    <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617577920918" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617596247634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617596247634" />
     <state width="1014" height="278" key="GridCell.Tab.0.bottom" timestamp="1617125034751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -366,10 +402,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617395218669">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617578015229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617395218669" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617578015229" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
