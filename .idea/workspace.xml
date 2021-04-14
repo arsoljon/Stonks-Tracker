@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="created a search_test file for testing the search class">
-      <change afterPath="$PROJECT_DIR$/all_tests/search/stock_req_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_tests/search/save_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_tests/search/save_test.py" afterDir="false" />
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="attempted to make a test to check 'get_url()' returns the url saved in the setter function.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/search/search_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_tests/search/search_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -74,7 +74,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -289,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617738008579</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="created a stock_req_test file for testing the stock_request class">
+      <created>1617738651440</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617738651440</updated>
+    </task>
+    <task id="LOCAL-00026" summary="attempted to make a test to check 'get_url()' returns the url saved in the setter function.">
+      <created>1617744132896</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617744132896</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +386,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made the initial spider for finance.yahoo." />
     <MESSAGE value="*Untracked Files Prevent Merge* error occured. adding those files." />
     <MESSAGE value="Merge pull request #8 from arsoljon/fix-stock-request&#10;&#10;Fix stock request" />
     <MESSAGE value="added a database directory." />
@@ -396,45 +409,47 @@
     <MESSAGE value="created a find_test file for testing the find_stock class" />
     <MESSAGE value="created a save_test file for testing the save_stock class" />
     <MESSAGE value="created a search_test file for testing the search class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a search_test file for testing the search class" />
+    <MESSAGE value="created a stock_req_test file for testing the stock_request class" />
+    <MESSAGE value="attempted to make a test to check 'get_url()' returns the url saved in the setter function." />
+    <option name="LAST_COMMIT_MESSAGE" value="attempted to make a test to check 'get_url()' returns the url saved in the setter function." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042881943">
+    <state x="424" y="133" width="1092" height="907" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618435289720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="424" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617042881943" />
+    <state x="424" y="133" width="1092" height="907" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618435289720" />
     <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617577920918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617577920918" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617596247634">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1618435288946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617596247634" />
-    <state width="1014" height="278" key="GridCell.Tab.0.bottom" timestamp="1617125034751">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618435288946" />
+    <state width="1035" height="278" key="GridCell.Tab.0.bottom" timestamp="1618246223576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617125034751" />
-    <state width="1014" height="278" key="GridCell.Tab.0.center" timestamp="1617125034751">
+    <state width="1035" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
+    <state width="1035" height="278" key="GridCell.Tab.0.center" timestamp="1618246223576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617125034751" />
-    <state width="1014" height="278" key="GridCell.Tab.0.left" timestamp="1617125034751">
+    <state width="1035" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
+    <state width="1035" height="278" key="GridCell.Tab.0.left" timestamp="1618246223576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617125034751" />
-    <state width="1014" height="278" key="GridCell.Tab.0.right" timestamp="1617125034751">
+    <state width="1035" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
+    <state width="1035" height="278" key="GridCell.Tab.0.right" timestamp="1618246223576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617125034751" />
+    <state width="1035" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
     <state x="783" y="433" key="VCS.ChangelistChooser" timestamp="1617041684301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617578015229">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617738662930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617578015229" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617738662930" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

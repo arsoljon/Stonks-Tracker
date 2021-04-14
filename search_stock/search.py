@@ -14,3 +14,4 @@ class Search():
 
     def get_url(self): return self.__url
 
+
