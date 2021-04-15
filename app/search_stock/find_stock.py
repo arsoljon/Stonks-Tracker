@@ -1,4 +1,4 @@
-import pandas as pd
+#Run the yahoo spider on the most recent ticker.
 import os
 
 class Find_stock():

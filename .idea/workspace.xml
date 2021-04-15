@@ -20,14 +20,34 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:create-tests-for-search-classes" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:reorganize-files" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment="attempted to make a test to check 'get_url()' returns the url saved in the setter function.">
+    <list default="true" id="2c086f24-0fad-4571-833b-6cda3bfab642" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_tests/search/search_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_tests/search/search_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/invests_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/invests_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/search/find_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/search/find_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/search/save_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/search/save_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/search/search_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/search/search_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_tests/search/stock_req_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/search/stock_req_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/temp" beforeDir="false" afterPath="$PROJECT_DIR$/app/databases/temp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Invest-flow-diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/Invest-flow-diagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/View-a-stock-flow-diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/View-a-stock-flow-diagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/find_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/search_stock/find_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/save_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/search_stock/save_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/search_stock/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_stock/stock_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/search_stock/stock_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/app/stock_scraper/scrapy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stock_scraper/stock_scraper/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stock_scraper/stock_scraper/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stock_scraper/stock_scraper/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stock_scraper/stock_scraper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stock_scraper/stock_scraper/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_scraper/stock_scraper/spiders/yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stock_scraper/stock_scraper/spiders/yahoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +81,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="update-documentation" />
+        <entry key="$PROJECT_DIR$" value="create-tests-for-search-classes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,19 +94,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/main.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\app" />
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\all_tests\search" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\all_tests" />
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs\basic_functionality" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\docs" />
-      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\search" />
+      <recent name="C:\Users\Jonathan\PycharmProjects\Stonks-Tracker\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Jonathan\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617744132896</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=".">
+      <created>1618435334711</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618435334711</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +349,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="create-tests-for-search-classes" />
+                        <option value="reorganize-files" />
                       </list>
                     </value>
                   </entry>
@@ -338,6 +365,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="reorganize-files" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="create-tests-for-search-classes" />
@@ -386,7 +418,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="*Untracked Files Prevent Merge* error occured. adding those files." />
     <MESSAGE value="Merge pull request #8 from arsoljon/fix-stock-request&#10;&#10;Fix stock request" />
     <MESSAGE value="added a database directory." />
     <MESSAGE value="added a database directory. (2) My first try didnt add a empty directory" />
@@ -411,45 +442,46 @@
     <MESSAGE value="created a search_test file for testing the search class" />
     <MESSAGE value="created a stock_req_test file for testing the stock_request class" />
     <MESSAGE value="attempted to make a test to check 'get_url()' returns the url saved in the setter function." />
-    <option name="LAST_COMMIT_MESSAGE" value="attempted to make a test to check 'get_url()' returns the url saved in the setter function." />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="133" width="1092" height="907" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618435289720">
+    <state x="424" y="109" width="1092" height="931" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618435632907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="424" y="133" width="1092" height="907" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618435289720" />
+    <state x="424" y="109" width="1092" height="931" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618435632907" />
     <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617577920918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617577920918" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1618435288946">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1618435631961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618435288946" />
-    <state width="1035" height="278" key="GridCell.Tab.0.bottom" timestamp="1618246223576">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618435631961" />
+    <state width="1035" height="278" key="GridCell.Tab.0.bottom" timestamp="1618453640348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1035" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
-    <state width="1035" height="278" key="GridCell.Tab.0.center" timestamp="1618246223576">
+    <state width="1035" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618453640348" />
+    <state width="1035" height="278" key="GridCell.Tab.0.center" timestamp="1618453640348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1035" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
-    <state width="1035" height="278" key="GridCell.Tab.0.left" timestamp="1618246223576">
+    <state width="1035" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618453640348" />
+    <state width="1035" height="278" key="GridCell.Tab.0.left" timestamp="1618453640348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1035" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
-    <state width="1035" height="278" key="GridCell.Tab.0.right" timestamp="1618246223576">
+    <state width="1035" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618453640348" />
+    <state width="1035" height="278" key="GridCell.Tab.0.right" timestamp="1618453640348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1035" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618246223576" />
+    <state width="1035" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618453640348" />
     <state x="783" y="433" key="VCS.ChangelistChooser" timestamp="1617041684301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617041684301" />
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617738662930">
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2" timestamp="1618435346101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617738662930" />
+    <state x="114" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618435346101" />
     <state x="339" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617046582430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -458,5 +490,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1617046592328" />
+    <state x="402" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1618453119824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="402" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-768.1366.728@0.0.1920.1040" timestamp="1618453119824" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 import unittest
-from search_stock import search as s
+from app.search_stock import search as s
 
 class SearchTest(unittest.TestCase):
     def test_get_url(self):

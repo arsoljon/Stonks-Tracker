@@ -1,5 +1,4 @@
 import unittest
-from search_stock import *
 
 
 class InvestsTest(unittest.TestCase):
